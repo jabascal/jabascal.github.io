@@ -154,13 +154,13 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items : OPTIMIZATION, IP -->
+                <!-- Portfolio Grid Items : OPTIMIZATION, IP, CS -->
                 <div class="text-center">
                     <p class="lead" style="font-size: 24px;">Optimization, regularization, inverse problems</p>
                 </div>
                     <!-- Portfolio Item Mot&Img Rec -->
                     <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalIP">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalMotion">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -174,6 +174,15 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/port_cs.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item IP -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalIP">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/port_opt.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item FEM -->
@@ -643,6 +652,196 @@
                                             <li>Named Entity Recognition (NER) for extracting information from pdfs and other sources of data.</li>
                                             <li>BERT-based NER model trained leveraging Hugging's face transformers library and spaCy.</li>
                                             <li>NER using prompt-engineering GPT.</li>
+                                        </ul>
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------- -->
+        <!-- Portfolio Modal Motion -->
+        <div class="portfolio-modal modal fade" id="portfolioModalMotion" tabindex="-1" aria-labelledby="portfolioModalMotion" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Simultaneous motion & image recovery</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/port_motion_img_rec.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <ul style="list-style-type: disc; text-align: left;">
+                                            <li><a href="https://github.com/HGGM-LIM/prior-motion-reconstruction-CT">Prior motion reconstruction:</a>
+                                                Data, code and results for prior- and motion-based reconstruction (PRIMOR) method for respiratory gated CT. 
+                                                Motion artefact is removed by simultaneous motion and image reconstruction. 
+                                                <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149841">Publication.</a>
+                                            </li>
+                                            <li><a href="https://github.com/HGGM-LIM/Motion-Estimation-Compressed-Sensing-MRI">Motion estimation CS MRI:</a>
+                                                This repository contains MATLAB code for B-spline-based compressed sensing (SPLICS). 
+                                                SPLICS generalizes spatiotemporal total variation (ST-TV) by modelling the motion between consecutive frames into the reconstruction framework.                                                 
+                                                <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0110594">Publication.</a>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal CS -->
+        <div class="portfolio-modal modal fade" id="portfolioModalCS" tabindex="-1" aria-labelledby="portfolioModalCS" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Compressed sensing</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/port_cs.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <ul style="list-style-type: disc; text-align: left;">
+                                            <li><a href="https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI">Compressed-sensing diffusion lung MRI:</a>
+                                                data, code and results for a novel compressed sensing method presented in the paper Incorporation of prior knowledge 
+                                                of the signal behavior into the reconstruction to accelerate the acquisition of MR diffusion data. 
+                                                <a href="https://ieeexplore.ieee.org/document/8076917">Publication.</a>
+                                            </li>                                            
+                                            <li><a href="https://github.com/HGGM-LIM/Split-Bregman-ST-Total-Variation-MRI">Split-Bregman ST-TV MRI:</a>
+                                                Split Bregman spatiotemporal total variation for cardiac-cine MRI. 
+                                                <a href="https://onlinelibrary.wiley.com/doi/10.1002/mrm.24936">Publication.</a>
+                                            </li>
+                                            <li><a href="https://github.com/HGGM-LIM/Split_Bregman_PICCS_fMRI">Split-Bregman PICCS fMRI:</a>
+                                                Prior image compressed sensing (PICCS) leveraging the Split Bregman for fMRI. 
+                                                <a href="http://dx.doi.org/10.1118/1.4921365">Publication.</a>
+                                            <li><a href="https://github.com/HGGM-LIM/Efficient-ART-Split-Bregman-Reconstruction">Efficient ART Split-Breman:</a>
+                                                MATLAB code for an iterative reconstruction method that alternates a 
+                                                computationally efficient linear solver (ART) with a fast denoising step 
+                                                based on the Split Bregman formulation. 
+                                                <a href="https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-18/issue-07/076016/Use-of-Split-Bregman-denoising-for-iterative-reconstruction-in-fluorescence/10.1117/1.JBO.18.7.076016.full">Publication.</a>                                                
+                                            </li>                                            
+                                        </ul>
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal IP -->
+        <div class="portfolio-modal modal fade" id="portfolioModalIP" tabindex="-1" aria-labelledby="portfolioModalIP" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Inverse problems - Optimization - Regularization</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/port_opt.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <ul style="list-style-type: disc; text-align: left;">
+                                            <li><a href="https://github.com/HGGM-LIM/Efficient-ART-Split-Bregman-Reconstruction">Efficient ART Split-Breman:</a>
+                                                MATLAB code for an iterative reconstruction method that alternates a 
+                                                computationally efficient linear solver (ART) with a fast denoising step 
+                                                based on the Split Bregman formulation. 
+                                                <a href="https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-18/issue-07/076016/Use-of-Split-Bregman-denoising-for-iterative-reconstruction-in-fluorescence/10.1117/1.JBO.18.7.076016.full">Publication.</a>                                                
+                                            </li> 
+                                            <li><a href="https://github.com/HGGM-LIM/Split-Bregman-Total-Variation-Jacobian-Matrix">Split-Bregman TV Jacobian:</a>
+                                                Constrained total variation image reconstruction problem solved using the Split Bregman formulation where the Jacobian is provided as a matrix.</a>                                           
+                                            </li>
+                                            <li><a href="https://juanabascal78.wixsite.com/juan-abascal-webpage/publications-by-topic">Publications by topic:</a>
+                                                Publications on inverse problems, optimization and regularization.
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal Modelling -->
+        <div class="portfolio-modal modal fade" id="portfolioModalFEM" tabindex="-1" aria-labelledby="portfolioModalFEM" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Modelling - FEM</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/port_fem.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <ul style="list-style-type: disc; text-align: left;">
+                                            <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1053811908008537">Anisotropic modelling in EIT:</a>                                                
+                                                Publication on the influence of anisotropic modelling in electrical impedance tomography 
+                                                of brain function.
+                                            </li>  
+                                            <li><a href="https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-17/issue-03/036013/Influence-of-absorption-and-scattering-on-the-quantification-of-fluorescence/10.1117/1.JBO.17.3.036013.full#_=_">Influence of absorption and scattering on f-DOT:</a>
+                                                Publication on the influence of absorption and scattering on the quantification of fluorescence diffuse optical tomography.
+                                            </li> 
+                                            <li><a href="https://iopscience.iop.org/article/10.1088/0967-3334/28/7/S10">Validation of FEM:</a>
+                                                Publication on the validation of a finite element solution for anisotropic EIT.            
                                         </ul>
                                     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
